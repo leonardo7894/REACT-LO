@@ -1,0 +1,28 @@
+vite.config.js como compila
+no levanta sin el packege.json
+dependencias son herramientas que sirven para el desarrolo dela pagina podemos instalar un slider y ponerlo en la funcion "dependencies" "devDependecies" sirve para mejorar la lectura del codigo
+siempre estar parado en la pagina principal sino tira error ("nombre del proyecto") hacemos (nmp install) instala las dependencias
+
+cd react/ (carpeta)
+cd REACT-PROYECTO/ (el nombre del proyecto)
+nmp install (tiene que aparecer la carpeta "node_modules")
+npm run dev (permite correr el programa)
+
+no tocar el index.html ni main.jsx
+
+createroot crea un punto de entrada en la aplicacion y abaste al resto de algunas funciones que le querramos agregar
+
+componente es una etiqueta que SIEMPRE arranca con mayuscula
+
+app.jsx export defaul "nombre del archivo"
+export function App()
+esto es para exportar
+
+estado guarda una variable en la memoria y se puede modificar mediante un seter
+el estado tiene 3 partes
+
+const [variable, setVariable] = usState("valor inicial");
+use
+
+camellcase cada palabra comienza con mayuscula
+snakecase es con guiones bajos
