@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Contador } from "./components/Ejercicio1";
+import { Nombre } from "./components/Ejercicio2";
+import { Mostrar } from "./components/Ejercicio3";
+import { Cargando } from "./components/Ejercicio4";
+import { Juntos } from "./components/Ejercicio5";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +25,12 @@ function App() {
 
   return (
     <>
-      {!personajes ? (
+    <Contador/>
+    <Nombre/>
+    <Mostrar/> 
+    <Cargando/>
+    <Juntos/>
+      {/*!personajes ? (
         <div>cargando...</div>
       ) : (
         <ul>
@@ -30,7 +41,7 @@ function App() {
             </li>
           ))}
         </ul>
-      )}
+      )*/}
     </>
   );
 }
